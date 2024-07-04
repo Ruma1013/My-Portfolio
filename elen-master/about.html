@@ -12,93 +12,118 @@
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/ionicons.min.css">
-
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-    
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      .transition-text {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        height: 50px;
+      }
+      .transition-text span {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        opacity: 0;
+        animation: changeText 8s infinite;
+      }
+      @keyframes changeText {
+        0% { opacity: 0; transform: translateY(100%); }
+        5% { opacity: 1; transform: translateY(0); }
+        25% { opacity: 1; transform: translateY(0); }
+        30% { opacity: 0; transform: translateY(-100%); }
+        100% { opacity: 0; }
+      }
+      .transition-text span:nth-child(1) { animation-delay: 0s; }
+      .transition-text span:nth-child(2) { animation-delay: 2s; }
+      .transition-text span:nth-child(3) { animation-delay: 4s; }
+      .transition-text span:nth-child(4) { animation-delay: 6s; }
+    </style>
   </head>
   <body>
 
-	<div id="colorlib-page">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
-			<h1 id="colorlib-logo"><a href="index.html">ME<span>.</span></a></h1>
-			<nav id="colorlib-main-menu" role="navigation">
-				<ul>
-					<li class="colorlib-active"><a href="index.html">Home</a></li>
-					<li><a href="travel.html">Skills</a></li>
-					<li><a href="photography.html">UI Designs</a></li>
-					<li><a href="fashion.html">Web Projects</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+    <div id="colorlib-page">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+      <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+        <h1 id="colorlib-logo"><a href="index.html">ME<span>.</span></a></h1>
+        <nav id="colorlib-main-menu" role="navigation">
+          <ul>
+            <li class="colorlib-active"><a href="index.html">Home</a></li>
+            <li><a href="Skill.html">Skills</a></li>
+            <li><a href="UIDesign.html">UI Designs</a></li>
+            <li><a href="Web.html">Web Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
 
-			<div class="colorlib-footer">
-				
-				<ul>
-          <li><a href="#"><i class="icon-facebook"></i></a></li>
-					<li><a href="rumandasenanayake@gmail.com"><i class="fab fa-google"></i></a></li>
-          <li><a href="https://github.com/Ruma1013"><i class="bi bi-github"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/chamudi-senanayake-5637b8218"><i class="icon-linkedin"></i></a></li>
-				</ul>
-			</div>
-		</aside> <!-- END COLORLIB-ASIDE -->
-		<div id="colorlib-main">
-			<div class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url(images/12.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="js-fullheight d-flex justify-content-center align-items-center">
-					<div class="col-md-8 text text-center">
-						<div class="img mb-4" style="background-image: url(images/17.png);"></div>
-						<div class="desc">
-							<h2 class="subheading">Hello I'm</h2>
-							<h1 class="mb-4">Chamudi Senanayake</h1>
-							<p class="mb-4">I am Passionated about UI/UX engineering and web development, I thrive on creating intuitive designs and building robust web applications. Explore my portfolio to see how creativity and technical expertise come together to deliver exceptional user experiences..</p>
-							<ul class="ftco-social mt-3">
-                <li class="ftco-animate"><a href="https://github.com/Ruma1013"><span class="bi bi-github"></span></a></li>
-                <li class="ftco-animate"><a href="rumandasenanayake@gmail.com"><span class="fab fa-google"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.linkedin.com/in/chamudi-senanayake-5637b8218"><span class="fab fa-linkedin"></span></a></li>
-              </ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- END COLORLIB-MAIN -->
-	</div><!-- END COLORLIB-PAGE -->
+        <div class="colorlib-footer">
+          <ul>
+            <li><a href="#"><i class="icon-facebook"></i></a></li>
+            <li><a href="mailto:rumandasenanayake@gmail.com"><i class="fab fa-google"></i></a></li>
+            <li><a href="https://github.com/Ruma1013"><i class="bi bi-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/chamudi-senanayake-5637b8218"><i class="icon-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </aside> <!-- END COLORLIB-ASIDE -->
+      <div id="colorlib-main">
+        <div class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url(images/12.jpg);" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="js-fullheight d-flex justify-content-center align-items-center">
+            <div class="col-md-8 text text-center">
+              <div class="img mb-4" style="background-image: url(images/17.png);"></div>
+              <div class="desc">
+                <h2 class="subheading">Hello I'm</h2>
+                <h1 class="transition-text mb-4">
+                  <span>UI/UX Designer</span>
+                  <span>Frontend Developer</span>
+                  <span>Backend Developer</span>
+                  <span>Fullstack Developer</span>
+                </h1>
+                <p class="mb-4">Hello, I'm Chamudi Rumanda Senanayake, a 23-year-old undergraduate currently in my third year at Sabaragamuwa University of Sri Lanka, pursuing a degree in Computing & Information Systems. I reside in Giriulla, Kurunegala, Sri Lanka. I have a strong passion for UI/UX design and full-stack web development, and I'm dedicated to creating innovative and user-friendly web solutions.</p>
+                <ul class="ftco-social mt-3">
+                  <li class="ftco-animate"><a href="https://github.com/Ruma1013"><span class="bi bi-github"></span></a></li>
+                  <li class="ftco-animate"><a href="mailto:rumandasenanayake@gmail.com"><span class="fab fa-google"></span></a></li>
+                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/chamudi-senanayake-5637b8218"><span class="fab fa-linkedin"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- END COLORLIB-MAIN -->
+    </div><!-- END COLORLIB-PAGE -->
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
   </body>
 </html>

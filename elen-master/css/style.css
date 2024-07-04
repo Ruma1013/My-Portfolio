@@ -7603,12 +7603,12 @@ h1, h2, h3, h4, h5,
       color: #b3b3b3;
       border-bottom: 2px solid #b3b3b3; }
 
-.photography-entry {
+.UIDesign-entry {
   height: 270px;
   display: block;
   z-index: 0;
   position: relative; }
-  .photography-entry .overlay {
+  .UIDesign-entry .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -7622,24 +7622,24 @@ h1, h2, h3, h4, h5,
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  .photography-entry .text {
+  .UIDesign-entry .text {
     opacity: 0;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    .photography-entry .text h3 {
+    .UIDesign-entry .text h3 {
       color: #fff;
       font-size: 20px; }
-    .photography-entry .text span {
+    .UIDesign-entry .text span {
       font-size: 12px;
       text-transform: uppercase;
       letter-spacing: 2px;
       color: rgba(255, 255, 255, 0.8); }
-  .photography-entry:hover .overlay, .photography-entry:focus .overlay {
+  .UIDesign-entry:hover .overlay, .UIDesign-entry:focus .overlay {
     opacity: .7; }
-  .photography-entry:hover .text, .photography-entry:focus .text {
+  .UIDesign-entry:hover .text, .UIDesign-entry:focus .text {
     opacity: 1; }
 
 .owl-carousel {
